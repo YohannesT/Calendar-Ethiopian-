@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/abc_ab_stacked_transparent_light_holo"
+    android:padding="1dp"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="true"
+    android:rowOrderPreserved="true"
+    android:useDefaultMargins="true"
+    android:id="@+id/grdCellBackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGridItemEthiopianDate"
+        android:singleLine="true"
+        android:textColor="#01410e"
+        android:typeface="serif"
+        android:clickable="false"
+        android:textSize="16dp"
+        android:ellipsize="marquee"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_rowSpan="1"
+        android:layout_margin="2dp"
+        android:padding="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGridItemEuropianDate"
+        android:singleLine="true"
+        android:textColor="#003441"
+        android:typeface="serif"
+        android:textAlignment="textEnd"
+        android:textSize="16dp"
+        android:ellipsize="marquee"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_rowSpan="1"
+        android:layout_margin="2dp"
+        android:padding="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDoW"
+        android:textAlignment="textEnd"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:textColor="#5f87ff"
+        android:textSize="14dp"
+        android:ellipsize="marquee"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_rowSpan="1"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGeezeDate"
+        android:textColor="#453400"
+        android:typeface="serif"
+        android:layout_margin="2dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:layout_column="1"
+        android:layout_rowSpan="3"
+        android:layout_row="0"
+        android:padding="2dp"
+        android:layout_columnSpan="1"
+        android:gravity="left" />
+
+</GridLayout>

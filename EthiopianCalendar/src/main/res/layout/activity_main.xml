@@ -1,0 +1,24 @@
+<ViewAnimator xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewAnimator"
+    android:animateFirstView="true"
+    android:focusable="false">
+
+    <fragment
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:name="tamru.yohannes.ethiopiancalendar.activities.fragments.Calendar"
+        android:id="@+id/fragment2"
+        tools:layout="@layout/fragment_calendar_ui" />
+
+    <fragment
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:name="tamru.yohannes.ethiopiancalendar.activities.fragments.Today"
+        android:id="@+id/fragment"
+        tools:layout="@layout/fragment_today" />
+
+
+</ViewAnimator>

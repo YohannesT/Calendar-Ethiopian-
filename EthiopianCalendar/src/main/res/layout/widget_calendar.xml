@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="@dimen/widget_margin"
+    android:background="#40000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtCalendarWidgetToday"
+        android:padding="0dp"
+        android:layout_margin="0dp" />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCalendarWidgetGrid"
+        android:layout_alignParentEnd="true"
+        android:numColumns="7"
+        android:stackFromBottom="false"
+        android:drawSelectorOnTop="true"
+        android:fastScrollAlwaysVisible="false"
+        android:horizontalSpacing="4dp"
+        android:stretchMode="columnWidth"
+        android:textAlignment="center"
+        android:verticalSpacing="4dp"
+        android:choiceMode="multipleChoiceModal"
+        android:clickable="false"
+        android:transcriptMode="normal"
+        android:visibility="visible"
+        android:background="#f0ecda"
+        android:focusableInTouchMode="true"
+        android:padding="5dp"
+        android:focusable="true"
+        android:longClickable="true"
+        android:fastScrollEnabled="true"
+        android:layout_margin="0dp"
+        android:layout_gravity="center"
+        android:layoutMode="clipBounds"
+        android:smoothScrollbar="true" />
+</LinearLayout>

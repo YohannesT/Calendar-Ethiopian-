@@ -1,0 +1,44 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal|top"
+        android:padding="50dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#222222">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/txtEthiopianDateNice"
+                android:layout_gravity="center"
+                android:textSize="50dp"
+                android:typeface="normal"
+                android:textIsSelectable="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textColor="#ffffff"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_dark" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/txtEthopianDate"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/txtGregoreanDate"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>

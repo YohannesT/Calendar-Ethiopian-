@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="C:\Users\Yohannes\AndroidStudioProjects\EthiopianCalendar" />
+        <option name="gradleHome" value="C:/gradle-1.9" />
+      </GradleProjectSettings>
+    </option>
+    <option name="serviceDirectoryPath" value="$PROJECT_DIR$/.gradle" />
+  </component>
+</project>
+
